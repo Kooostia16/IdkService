@@ -2,7 +2,7 @@ package com.userservice.service
 
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
-import io.realworld.exception.InvalidLoginException
+import com.userservice.exception.InvalidLoginException
 import com.userservice.model.User
 import com.userservice.model.inout.Login
 import com.userservice.repository.UserRepository
